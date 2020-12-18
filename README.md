@@ -1,3 +1,3 @@
 # fake-hacker
 A Fake Hacking Program
-Written In HTML. :-)
+Written In JavaScript, CSS, HTML. :-)
