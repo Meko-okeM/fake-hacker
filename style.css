@@ -5,6 +5,10 @@
   src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcecodepro/v4/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff) format('woff');
 }
 
+html {
+  cursor: none
+}
+
 body {
     font-family: Source Code Pro;
     background:#000;
