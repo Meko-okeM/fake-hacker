@@ -1,19 +1,13 @@
+<html>
+<title>Fake Hacker</title>
 <body onload="init()" id="hackview">
 <canvas class='hacker-3d-shiz'></canvas>
 <canvas class='bars-and-stuff'></canvas>
 <div class="output-console"></div>
 <link rel="stylesheet" href="style.css">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Fake Hacker">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <script src="script.js"></script>
 </body>
-<script>
-var elem = document.getElementById("hackview");
-function init() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-</script>
+</html>
