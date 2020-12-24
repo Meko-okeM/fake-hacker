@@ -274,3 +274,13 @@ window.addEventListener('resize', function(){
       vpy = canvas.height / 2;
       ctx.strokeStyle = ctxBars.strokeStyle = ctxBars.fillStyle = '#00FF00';
 });
+var elem = document.getElementById("hackview");
+function init() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
